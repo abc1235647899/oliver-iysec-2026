@@ -7,7 +7,7 @@
   font-size: clamp(1.4rem, 4vw, 1.85rem);
   font-weight: 800;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, var(--cyan), var(--magenta));
+  background: linear-gradient(135deg, var(--cyan), var(--teal), var(--gold));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

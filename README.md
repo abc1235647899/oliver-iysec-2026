@@ -2,7 +2,11 @@
 
 Bilingual (EN | 繁中) celebration website for **Oliver Chung Yu Tong (鍾渝棠)** and his seven awards at the **Sun Hung Kai Properties International Youth STEAM Education Competition (IYSEC 2026)** / **新鴻基地產國際青少年創科教育大賽**.
 
-Built with **Vite + React + TypeScript + Framer Motion**. Dark neon / glassmorphism UI, particle background, phone-first layout, and `prefers-reduced-motion` support.
+Built with **Vite + React + TypeScript + Framer Motion**. Solarpunk luminous-glass UI (deep navy, soft teal–pink ambient gradients, electric cyan, pale gold), particle background, phone-first layout, and `prefers-reduced-motion` support.
+
+### Digital arts theme
+
+Oliver’s winning digital arts set the palette: soft teal/seafoam + pastel pink/lavender sky + pale gold for **Future Society & AI**; parchment + imperial gold/jade for the **Temples & Chinese Culture** heritage piece. The site deliberately avoids purple/magenta/black Halloween neon in favour of that solarpunk / heritage look. Artwork lives in `public/art/`; the future film is wired at `public/videos/Oliver_Future_v1.mp4` (poster: future-society art); the temple film embeds YouTube `FI-RXc6kbKE`.
 
 ## Subject
 

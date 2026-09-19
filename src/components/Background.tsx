@@ -17,7 +17,7 @@ export function Background() {
         size: 2 + Math.random() * 3,
         duration: 8 + Math.random() * 12,
         delay: Math.random() * 6,
-        color: i % 3 === 0 ? 'var(--cyan)' : i % 3 === 1 ? 'var(--magenta)' : 'var(--purple)',
+        color: i % 3 === 0 ? 'var(--cyan)' : i % 3 === 1 ? 'var(--teal)' : 'var(--gold)',
       })),
     [],
   )
@@ -28,8 +28,9 @@ export function Background() {
       <div className="bg-grid" />
       <div className="bg-orbs">
         <div className="orb orb-cyan" />
-        <div className="orb orb-magenta" />
-        <div className="orb orb-purple" />
+        <div className="orb orb-teal" />
+        <div className="orb orb-gold" />
+        <div className="orb orb-pink" />
       </div>
       {!reduced &&
         particles.map((p) => (

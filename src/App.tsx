@@ -2,6 +2,7 @@ import { Background } from './components/Background'
 import { Nav } from './components/Nav'
 import { Hero } from './components/Hero'
 import { Awards } from './components/Awards'
+import { DigitalArts } from './components/DigitalArts'
 import { Gallery } from './components/Gallery'
 import { About } from './components/About'
 import { Share } from './components/Share'
@@ -18,6 +19,7 @@ export default function App() {
       <main>
         <Hero lang={lang} />
         <Awards lang={lang} />
+        <DigitalArts lang={lang} />
         <Gallery lang={lang} />
         <About lang={lang} />
         <Share lang={lang} />

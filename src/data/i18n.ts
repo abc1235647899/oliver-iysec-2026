@@ -5,6 +5,10 @@ export type Lang = 'en' | 'zh'
 export const translations = {
   en: {
     brand: 'IYSEC 2026',
+    navAwards: 'Awards',
+    navDigitalArts: 'Digital Arts',
+    navGallery: 'Moments',
+    navAbout: 'About',
     heroEyebrow: 'Celebration Showcase',
     heroTitle: subject.nameEn,
     heroSubtitle: `${subject.age} · ${subject.gradeEn} · ${subject.schoolEn}`,
@@ -13,6 +17,22 @@ export const translations = {
     heroScroll: 'Scroll to explore',
     awardsTitle: 'Seven Awards',
     awardsSubtitle: 'A remarkable haul across AI, digital arts, and all-round excellence.',
+    digitalArtsTitle: 'Digital Arts',
+    digitalArtsSubtitle:
+      'Winning works inspired by soft teal skies, luminous circuitry, and imperial heritage — future society meets temple culture.',
+    artFutureTitle: 'Future Society & AI',
+    artFutureCaption:
+      'Impressionist futurism — seafoam cityscape, soft teal–pink sky, and cyan circuitry weaving through tomorrow’s world.',
+    artFutureAltTitle: 'Future Society · Studies',
+    artFutureAltCaption:
+      'Alternate stills collage — mint light, pale gold accents, and luminous glass architecture for an AI-ready society.',
+    artTempleTitle: 'Temples & Chinese Culture',
+    artTempleCaption:
+      'Three Kingdoms heritage — parchment textures, imperial gold, and jade accents honouring temple culture.',
+    videoFutureTitle: 'Future Society · Film',
+    videoFutureCaption: 'Oliver’s digital arts film exploring future society and AI.',
+    videoTempleTitle: 'Temples & Culture · Film',
+    videoTempleCaption: 'Heritage short on temples and Chinese culture — watch on YouTube.',
     galleryTitle: 'Moments',
     gallerySubtitle: 'From the stage to the skybridge — memories from IYSEC 2026.',
     aboutTitle: 'About Oliver',
@@ -36,6 +56,10 @@ export const translations = {
   },
   zh: {
     brand: 'IYSEC 2026',
+    navAwards: '獎項',
+    navDigitalArts: '數碼藝術',
+    navGallery: '瞬間',
+    navAbout: '關於',
     heroEyebrow: '榮耀時刻',
     heroTitle: subject.nameZh,
     heroSubtitle: `${subject.age} 歲 · ${subject.gradeZh} · ${subject.schoolZh}`,
@@ -44,6 +68,22 @@ export const translations = {
     heroScroll: '向下探索',
     awardsTitle: '七項大獎',
     awardsSubtitle: '涵蓋人工智能、數碼藝術與全能表現的耀眼成績。',
+    digitalArtsTitle: '數碼藝術',
+    digitalArtsSubtitle:
+      '得獎作品靈感來自柔和青綠天空、發光電路與帝王遺產——未來社會與廟宇文化交匯。',
+    artFutureTitle: '未來社會與人工智能',
+    artFutureCaption:
+      '印象派未來主義——海沫城市、柔和青綠粉紅天空，與青色電路交織的明日世界。',
+    artFutureAltTitle: '未來社會 · 習作',
+    artFutureAltCaption:
+      '科技靜幀拼貼——薄荷光、淡金點綴，與為 AI 時代而設的發光玻璃建築。',
+    artTempleTitle: '廟宇與中華文化',
+    artTempleCaption:
+      '三國遺產——羊皮紙質感、帝王金與翡翠點綴，致敬廟宇文化。',
+    videoFutureTitle: '未來社會 · 影片',
+    videoFutureCaption: '渝棠的數碼藝術短片，探索未來社會與人工智能。',
+    videoTempleTitle: '廟宇與文化 · 影片',
+    videoTempleCaption: '廟宇與中華文化主題短片——於 YouTube 觀看。',
     galleryTitle: '精彩瞬間',
     gallerySubtitle: '從舞台到天橋——IYSEC 2026 珍貴回憶。',
     aboutTitle: '關於渝棠',

@@ -23,6 +23,12 @@ export function Nav({ lang, onLangChange }: Props) {
         <span className="nav-dot" />
         {t.brand}
       </a>
+      <nav className="nav-links" aria-label="Sections">
+        <a href="#awards">{t.navAwards}</a>
+        <a href="#digital-arts">{t.navDigitalArts}</a>
+        <a href="#gallery">{t.navGallery}</a>
+        <a href="#about">{t.navAbout}</a>
+      </nav>
       <LanguageToggle lang={lang} onChange={onLangChange} />
     </motion.header>
   )

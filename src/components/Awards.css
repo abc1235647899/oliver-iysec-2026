@@ -55,7 +55,7 @@
 }
 
 .award-card.tier-merit {
-  border-color: var(--purple-dim);
+  border-color: var(--gold-dim);
 }
 
 .award-top {
@@ -92,7 +92,7 @@
 .award-result {
   font-size: 1.15rem;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--cyan), var(--magenta));
+  background: linear-gradient(135deg, var(--cyan), var(--gold));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

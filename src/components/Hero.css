@@ -44,7 +44,7 @@
   font-weight: 900;
   letter-spacing: -0.03em;
   line-height: 1.1;
-  background: linear-gradient(120deg, #fff 20%, var(--cyan) 50%, var(--magenta) 85%);
+  background: linear-gradient(120deg, #fff 15%, var(--cyan) 45%, var(--teal) 70%, var(--gold) 95%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -67,7 +67,7 @@
 .hero-tag {
   font-size: 1.05rem;
   font-weight: 600;
-  color: var(--purple);
+  color: var(--teal);
   margin-bottom: 1.75rem;
 }
 
@@ -86,14 +86,14 @@
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--bg-deep);
-  background: linear-gradient(135deg, var(--cyan), var(--magenta));
+  background: linear-gradient(135deg, var(--cyan), var(--teal));
   box-shadow: 0 0 24px var(--cyan-dim);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 36px var(--magenta-dim);
+  box-shadow: 0 0 36px var(--teal-dim), 0 0 20px var(--gold-dim);
 }
 
 .btn-ghost {
@@ -146,7 +146,7 @@
 
 .hero-badge strong {
   font-size: 1.75rem;
-  background: linear-gradient(135deg, var(--cyan), var(--magenta));
+  background: linear-gradient(135deg, var(--cyan), var(--gold));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
