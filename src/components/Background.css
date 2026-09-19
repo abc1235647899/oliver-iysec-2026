@@ -1,0 +1,89 @@
+.bg-root {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bg-gradient {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 10%, rgba(34, 211, 238, 0.12), transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 20%, rgba(232, 121, 249, 0.1), transparent 50%),
+    radial-gradient(ellipse 70% 50% at 50% 90%, rgba(167, 139, 250, 0.1), transparent 55%),
+    var(--bg-deep);
+}
+
+.bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(34, 211, 238, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 211, 238, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black, transparent);
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black, transparent);
+}
+
+.bg-orbs {
+  position: absolute;
+  inset: 0;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.45;
+}
+
+.orb-cyan {
+  width: 280px;
+  height: 280px;
+  background: var(--cyan);
+  top: -5%;
+  left: -5%;
+  animation: drift 18s ease-in-out infinite;
+}
+
+.orb-magenta {
+  width: 320px;
+  height: 320px;
+  background: var(--magenta);
+  top: 40%;
+  right: -10%;
+  animation: drift 22s ease-in-out infinite reverse;
+}
+
+.orb-purple {
+  width: 240px;
+  height: 240px;
+  background: var(--purple);
+  bottom: 5%;
+  left: 30%;
+  animation: drift 20s ease-in-out infinite;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 0 8px currentColor;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, 40px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orb {
+    animation: none;
+  }
+}

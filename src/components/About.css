@@ -1,0 +1,50 @@
+.about-card {
+  padding: 1.75rem 1.35rem;
+}
+
+@media (min-width: 640px) {
+  .about-card {
+    padding: 2.25rem 2rem;
+  }
+}
+
+.about-body {
+  font-size: 1.05rem;
+  color: var(--text);
+  margin-bottom: 1.75rem;
+  line-height: 1.75;
+}
+
+.about-facts {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .about-facts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.about-fact {
+  padding: 0.85rem 1rem;
+  border-radius: 0.85rem;
+  background: rgba(34, 211, 238, 0.05);
+  border: 1px solid var(--glass-border);
+}
+
+.about-fact dt {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 0.25rem;
+}
+
+.about-fact dd {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.4;
+}

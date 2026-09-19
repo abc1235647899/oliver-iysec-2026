@@ -1,0 +1,28 @@
+import { Background } from './components/Background'
+import { Nav } from './components/Nav'
+import { Hero } from './components/Hero'
+import { Awards } from './components/Awards'
+import { Gallery } from './components/Gallery'
+import { About } from './components/About'
+import { Share } from './components/Share'
+import { Footer } from './components/Footer'
+import { useLanguage } from './hooks/useLanguage'
+
+export default function App() {
+  const { lang, setLang } = useLanguage()
+
+  return (
+    <>
+      <Background />
+      <Nav lang={lang} onLangChange={setLang} />
+      <main>
+        <Hero lang={lang} />
+        <Awards lang={lang} />
+        <Gallery lang={lang} />
+        <About lang={lang} />
+        <Share lang={lang} />
+      </main>
+      <Footer lang={lang} />
+    </>
+  )
+}

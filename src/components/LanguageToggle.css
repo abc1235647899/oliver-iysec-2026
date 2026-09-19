@@ -1,0 +1,35 @@
+.lang-toggle {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4px;
+  gap: 0;
+  border-radius: 999px;
+  z-index: 50;
+}
+
+.lang-toggle button {
+  position: relative;
+  z-index: 2;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  border-radius: 999px;
+  transition: color 0.2s;
+}
+
+.lang-toggle button.active {
+  color: var(--bg-deep);
+}
+
+.lang-pill {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  width: calc(50% - 4px);
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--cyan), var(--magenta));
+  z-index: 1;
+}
