@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useReducedMotion } from '../hooks/useReducedMotion'
 import './Background.css'
 
-const PARTICLE_COUNT = 36
+const PARTICLE_COUNT = 22
 
 export function Background() {
   const reduced = useReducedMotion()
@@ -14,10 +14,17 @@ export function Background() {
         id: i,
         x: Math.random() * 100,
         y: Math.random() * 100,
-        size: 2 + Math.random() * 3,
-        duration: 8 + Math.random() * 12,
+        size: 1.5 + Math.random() * 2.5,
+        duration: 10 + Math.random() * 14,
         delay: Math.random() * 6,
-        color: i % 3 === 0 ? 'var(--cyan)' : i % 3 === 1 ? 'var(--teal)' : 'var(--gold)',
+        color:
+          i % 4 === 0
+            ? 'var(--cyan)'
+            : i % 4 === 1
+              ? 'var(--gold)'
+              : i % 4 === 2
+                ? 'var(--pink)'
+                : 'var(--teal)',
       })),
     [],
   )
@@ -45,9 +52,9 @@ export function Background() {
               background: p.color,
             }}
             animate={{
-              y: [0, -40, 0],
-              opacity: [0.2, 0.85, 0.2],
-              scale: [1, 1.4, 1],
+              y: [0, -28, 0],
+              opacity: [0.15, 0.55, 0.15],
+              scale: [1, 1.25, 1],
             }}
             transition={{
               duration: p.duration,

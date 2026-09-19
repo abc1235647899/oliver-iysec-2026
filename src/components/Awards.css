@@ -34,7 +34,7 @@
   opacity: 0;
   transition: opacity 0.25s;
   pointer-events: none;
-  background: radial-gradient(circle at top right, rgba(34, 211, 238, 0.12), transparent 55%);
+  background: radial-gradient(circle at top right, rgba(249, 180, 208, 0.2), transparent 55%), radial-gradient(circle at bottom left, rgba(245, 224, 163, 0.14), transparent 50%);
 }
 
 .award-card:hover::before {
@@ -92,7 +92,7 @@
 .award-result {
   font-size: 1.15rem;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--cyan), var(--gold));
+  background: linear-gradient(135deg, var(--pink), var(--gold));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

@@ -31,7 +31,7 @@
   padding: 0.35rem 0.75rem;
   border: 1px solid var(--cyan-dim);
   border-radius: 999px;
-  background: rgba(34, 211, 238, 0.08);
+  background: rgba(249, 180, 208, 0.14);
 }
 
 .hero h1 {
@@ -44,7 +44,7 @@
   font-weight: 900;
   letter-spacing: -0.03em;
   line-height: 1.1;
-  background: linear-gradient(120deg, #fff 15%, var(--cyan) 45%, var(--teal) 70%, var(--gold) 95%);
+  background: linear-gradient(120deg, #fffaf5 10%, var(--cyan) 35%, var(--pink) 60%, var(--gold) 95%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -86,8 +86,8 @@
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--bg-deep);
-  background: linear-gradient(135deg, var(--cyan), var(--teal));
-  box-shadow: 0 0 24px var(--cyan-dim);
+  background: linear-gradient(135deg, var(--cyan), var(--pink), var(--gold));
+  box-shadow: 0 0 24px var(--pink-dim), 0 0 18px var(--gold-dim);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -146,7 +146,7 @@
 
 .hero-badge strong {
   font-size: 1.75rem;
-  background: linear-gradient(135deg, var(--cyan), var(--gold));
+  background: linear-gradient(135deg, var(--pink), var(--gold));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

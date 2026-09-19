@@ -10,22 +10,25 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 50% at 20% 10%, rgba(34, 211, 238, 0.28), transparent 50%),
-    radial-gradient(ellipse 60% 40% at 85% 15%, rgba(249, 168, 212, 0.18), transparent 50%),
-    radial-gradient(ellipse 50% 35% at 70% 60%, rgba(94, 234, 212, 0.22), transparent 55%),
-    radial-gradient(ellipse 70% 50% at 40% 95%, rgba(240, 215, 140, 0.16), transparent 55%),
-    var(--bg-deep);
+    radial-gradient(ellipse 90% 55% at 15% 8%, rgba(249, 180, 208, 0.42), transparent 52%),
+    radial-gradient(ellipse 70% 45% at 88% 12%, rgba(245, 224, 163, 0.38), transparent 50%),
+    radial-gradient(ellipse 65% 45% at 50% 0%, rgba(94, 234, 248, 0.32), transparent 55%),
+    radial-gradient(ellipse 55% 40% at 75% 55%, rgba(125, 211, 200, 0.28), transparent 55%),
+    radial-gradient(ellipse 80% 55% at 35% 92%, rgba(245, 224, 163, 0.3), transparent 55%),
+    radial-gradient(ellipse 50% 35% at 10% 60%, rgba(249, 180, 208, 0.22), transparent 50%),
+    linear-gradient(180deg, #5a8fb0 0%, #3d6b8a 45%, #4a7a9a 100%);
 }
 
 .bg-grid {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(34, 211, 238, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(94, 234, 212, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
   background-size: 48px 48px;
   mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black, transparent);
   -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black, transparent);
+  opacity: 0.7;
 }
 
 .bg-orbs {
@@ -36,53 +39,55 @@
 .orb {
   position: absolute;
   border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.4;
+  filter: blur(90px);
+  opacity: 0.45;
 }
 
 .orb-cyan {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   background: var(--cyan);
-  top: -5%;
+  top: -8%;
   left: -5%;
+  opacity: 0.38;
   animation: drift 18s ease-in-out infinite;
 }
 
 .orb-teal {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   background: var(--teal);
   top: 35%;
-  right: -8%;
-  opacity: 0.35;
+  right: -10%;
+  opacity: 0.32;
   animation: drift 22s ease-in-out infinite reverse;
 }
 
 .orb-gold {
-  width: 220px;
-  height: 220px;
+  width: 260px;
+  height: 260px;
   background: var(--gold);
-  bottom: 8%;
-  left: 25%;
-  opacity: 0.28;
+  bottom: 5%;
+  left: 20%;
+  opacity: 0.4;
   animation: drift 20s ease-in-out infinite;
 }
 
 .orb-pink {
-  width: 180px;
-  height: 180px;
+  width: 240px;
+  height: 240px;
   background: var(--pink);
-  top: 15%;
-  right: 25%;
-  opacity: 0.18;
+  top: 10%;
+  right: 20%;
+  opacity: 0.42;
   animation: drift 24s ease-in-out infinite reverse;
 }
 
 .particle {
   position: absolute;
   border-radius: 50%;
-  box-shadow: 0 0 8px currentColor;
+  box-shadow: 0 0 6px currentColor;
+  opacity: 0.55;
 }
 
 @keyframes drift {
@@ -91,7 +96,7 @@
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(30px, 40px);
+    transform: translate(24px, 32px);
   }
 }
 
