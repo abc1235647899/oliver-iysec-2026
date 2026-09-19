@@ -11,7 +11,7 @@ interface Props {
 const artworks = [
   {
     id: 'future-society',
-    src: './art/digital-arts-future-society.png',
+    src: './art/digital-arts-future-society.jpg',
     variant: 'future' as const,
     titleKey: 'artFutureTitle' as const,
     captionKey: 'artFutureCaption' as const,
@@ -25,7 +25,7 @@ const artworks = [
   },
   {
     id: 'temple-culture',
-    src: './art/digital-arts-temple-culture.jpg',
+    src: './art/digital-arts-temple-culture.png',
     variant: 'heritage' as const,
     titleKey: 'artTempleTitle' as const,
     captionKey: 'artTempleCaption' as const,
@@ -96,7 +96,7 @@ export function DigitalArts({ lang }: Props) {
             <video
               controls
               playsInline
-              poster="./art/digital-arts-future-society.png"
+              poster="./art/digital-arts-future-society.jpg"
               preload="metadata"
             >
               <source src="./videos/Oliver_Future_v1.mp4" type="video/mp4" />
