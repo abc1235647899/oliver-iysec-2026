@@ -1,8 +1,8 @@
 :root {
   /* Deep navy / charcoal — solarpunk luminous glass, not pure black */
-  --bg-deep: #0a1628;
-  --bg-mid: #0d1f2d;
-  --bg-elevated: #122636;
+  --bg-deep: #1a3a52;
+  --bg-mid: #234860;
+  --bg-elevated: #2a5570;
 
   /* Primary: electric cyan + soft teal / seafoam */
   --cyan: #22d3ee;
@@ -26,9 +26,9 @@
   --jade-dim: rgba(52, 211, 153, 0.35);
   --emerald: #10b981;
 
-  --text: #f1f5f9;
-  --text-muted: #94a3b8;
-  --glass: rgba(18, 38, 54, 0.55);
+  --text: #f8fafc;
+  --text-muted: #c5d4e0;
+  --glass: rgba(255, 255, 255, 0.12);
   --glass-border: rgba(94, 234, 212, 0.18);
   --glass-glow-cyan: rgba(34, 211, 238, 0.25);
   --glass-glow-gold: rgba(240, 215, 140, 0.2);
