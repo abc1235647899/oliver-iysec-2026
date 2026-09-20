@@ -69,12 +69,6 @@ export const awards: Award[] = [
         en: 'AI Application first runner-up on stage',
         zh: 'AI 應用亞軍頒獎台上',
       },
-      {
-        file: './photos/ceremony/15-ai-one-trophy.jpg',
-        role: 'receive',
-        en: 'Oliver with AI Application trophy and certificate',
-        zh: '渝棠手持 AI 應用獎盃與獎狀',
-      },
     ],
   },
   {
@@ -126,12 +120,6 @@ export const awards: Award[] = [
     },
     photos: [
       {
-        file: './art/digital-arts-future-society.jpg',
-        role: 'work',
-        en: 'Winning Future Society & AI artwork',
-        zh: '未來社會與 AI 得獎作品',
-      },
-      {
         file: './photos/ceremony/06-da-future-first.jpg',
         role: 'receive',
         en: 'Receiving Digital Arts Future Society 1st runner-up',
@@ -153,12 +141,6 @@ export const awards: Award[] = [
       category: '未來社會與人工智能',
     },
     photos: [
-      {
-        file: './art/digital-arts-future-society.jpg',
-        role: 'work',
-        en: 'Future Society & AI artwork',
-        zh: '未來社會與 AI 作品',
-      },
       {
         file: './photos/ceremony/07-interschool-future.jpg',
         role: 'receive',
@@ -182,12 +164,6 @@ export const awards: Award[] = [
     },
     photos: [
       {
-        file: './art/digital-arts-temple-culture.png',
-        role: 'work',
-        en: 'Temple & Chinese Culture artwork',
-        zh: '廟宇與中華文化作品',
-      },
-      {
         file: './photos/ceremony/04-da-merit-original.jpg',
         role: 'receive',
         en: 'Receiving Digital Arts Temple merit',
@@ -209,12 +185,6 @@ export const awards: Award[] = [
       category: '廟宇與中華文化',
     },
     photos: [
-      {
-        file: './art/digital-arts-temple-culture.png',
-        role: 'work',
-        en: 'Temple & Chinese Culture artwork',
-        zh: '廟宇與中華文化作品',
-      },
       {
         file: './photos/ceremony/05-interschool-temple.jpg',
         role: 'receive',
