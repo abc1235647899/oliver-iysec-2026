@@ -64,10 +64,10 @@ export const awards: Award[] = [
     },
     photos: [
       {
-        file: './photos/ceremony/08-lining-up.jpg',
-        role: 'moment',
-        en: 'Oliver lining up for the stage',
-        zh: '渝棠排隊上台',
+        file: './photos/ceremony/16-ai-first-runnerup-stage.jpg',
+        role: 'receive',
+        en: 'AI Application first runner-up on stage',
+        zh: 'AI 應用亞軍頒獎台上',
       },
       {
         file: './photos/ceremony/15-ai-one-trophy.jpg',
