@@ -215,7 +215,7 @@ export const photos = {
     { file: 'ceremony/08-lining-up.jpg', en: 'Oliver lining up for the stage', zh: '渝棠排隊上台' },
     { file: 'ceremony/12-event-backdrop.jpg', en: 'With trophies at the event backdrop', zh: '活動背板前與獎盃' },
     { file: '05-oliver-speech-stage.jpg', en: 'Oliver speaking on stage', zh: '渝棠舞台發言' },
-    { file: 'moments/18-five-trophies-display.jpg', en: 'Five IYSEC trophies on display', zh: '五座 IYSEC 獎盃陳列' },
+    { file: 'moments/19-five-trophies-display.jpg', en: 'Five IYSEC trophies on display', zh: '五座 IYSEC 獎盃陳列' },
   ],
 } as const
 
