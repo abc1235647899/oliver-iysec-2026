@@ -58,10 +58,16 @@ export const awards: Award[] = [
     },
     photos: [
       {
-        file: './photos/ceremony/16-ai-first-runnerup-stage.jpg',
+        file: './photos/ceremony/17-ai-stage-screen.jpg',
         role: 'receive',
         en: 'AI Application first runner-up on stage',
         zh: 'AI 應用亞軍頒獎台上',
+      },
+      {
+        file: './photos/ceremony/18-ai-walking-stage.jpg',
+        role: 'moment',
+        en: 'Oliver walking up for the AI award',
+        zh: '渝棠上台領取 AI 獎項',
       },
     ],
   },
