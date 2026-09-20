@@ -126,7 +126,7 @@ export const awards: Award[] = [
         zh: '廟宇與中華文化作品',
       },
       {
-        file: './photos/ceremony/04-da-merit-clean.jpg',
+        file: './photos/ceremony/04-da-merit-original.jpg',
         role: 'receive',
         en: 'Receiving Digital Arts Temple merit',
         zh: '領取數碼藝術廟宇優異獎',
