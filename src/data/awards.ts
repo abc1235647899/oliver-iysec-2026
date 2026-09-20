@@ -229,14 +229,17 @@ export const photos = {
   hero: '01-hero-family-trophies.jpg',
   gallery: [
     { file: '13-event-open.jpg', en: 'Event opening — AI: Shaping Tomorrow', zh: '開幕：AI 競未來' },
+    { file: 'moments/12-classmate-chitchat.jpg', en: 'After ceremony · chit-chat with classmate', zh: '頒獎後與同學傾偈' },
+    { file: 'moments/13-teacher-classmates.jpg', en: 'Happily with teacher and classmates', zh: '與老師同學開心合照' },
+    { file: 'moments/14-presenting-work.jpg', en: 'Presenting his work to the audience', zh: '向觀眾簡報作品' },
+    { file: 'moments/15-backstage-trophy.jpg', en: 'Backstage with the trophy', zh: '後台手持獎盃' },
+    { file: 'moments/16-presenting-confidently.jpg', en: 'Presenting confidently on stage', zh: '自信地台上發言' },
     { file: 'ceremony/08-lining-up.jpg', en: 'Oliver lining up for the stage', zh: '渝棠排隊上台' },
     { file: 'ceremony/12-event-backdrop.jpg', en: 'With trophies at the event backdrop', zh: '活動背板前與獎盃' },
     { file: '02-family-trophies-alt.jpg', en: 'Family with trophies', zh: '一家與獎盃合照' },
     { file: '03-family-trophies-proud.jpg', en: 'Proud family moment', zh: '一家驕傲合照' },
     { file: '05-oliver-speech-stage.jpg', en: 'Oliver speaking on stage', zh: '渝棠舞台發言' },
     { file: '06-oliver-speech-close.jpg', en: 'Speech close-up with mic', zh: '發言特寫' },
-    { file: '07-oliver-speech-audience.jpg', en: 'Addressing the audience', zh: '向觀眾致辭' },
-    { file: '09-ceremony-stage-group.jpg', en: 'Ceremony stage group', zh: '頒獎台合影' },
   ],
 } as const
 
