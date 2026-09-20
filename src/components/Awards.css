@@ -4,15 +4,15 @@
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 700px) {
   .awards-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.15rem;
   }
-}
 
-@media (min-width: 1100px) {
-  .awards-grid {
-    grid-template-columns: repeat(3, 1fr);
+  /* All-round: full-width featured card */
+  .award-card.award-featured {
+    grid-column: 1 / -1;
   }
 }
 
@@ -24,6 +24,49 @@
   display: flex;
   flex-direction: column;
   gap: 0.95rem;
+}
+
+.award-card.award-featured {
+  padding: 1.55rem 1.4rem 1.35rem;
+  gap: 1.15rem;
+  box-shadow: 0 0 28px rgba(192, 192, 210, 0.18), 0 12px 36px rgba(45, 80, 110, 0.14);
+}
+
+@media (min-width: 900px) {
+  .award-card.award-featured {
+    display: grid;
+    grid-template-columns: minmax(240px, 0.9fr) minmax(0, 1.4fr);
+    align-items: stretch;
+    gap: 1.35rem;
+    padding: 1.75rem 1.6rem 1.5rem;
+  }
+
+  .award-card.award-featured .award-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .award-card.award-featured h3 {
+    font-size: 1.55rem;
+  }
+
+  .award-card.award-featured .award-result {
+    font-size: 1.45rem;
+  }
+
+  .award-card.award-featured .award-icon {
+    font-size: 2rem;
+  }
+
+  .award-card.award-featured .award-photos.cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .award-card.award-featured .award-thumb {
+    aspect-ratio: 4 / 3;
+    border-radius: 1rem;
+  }
 }
 
 .award-card::before {
@@ -44,6 +87,11 @@
 .award-card.tier-silver {
   border-color: rgba(192, 192, 210, 0.35);
   box-shadow: 0 0 20px rgba(192, 192, 210, 0.12);
+}
+
+.award-card.award-featured.tier-silver {
+  border-color: rgba(192, 192, 210, 0.5);
+  box-shadow: 0 0 28px rgba(192, 192, 210, 0.22), 0 12px 36px rgba(45, 80, 110, 0.14);
 }
 
 .award-card.tier-first {
@@ -189,12 +237,6 @@
 .award-thumb:hover .award-thumb-role,
 .award-thumb:focus-visible .award-thumb-role {
   opacity: 1;
-}
-
-@media (min-width: 1100px) {
-  .award-card:first-child {
-    grid-column: span 1;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

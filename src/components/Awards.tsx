@@ -95,7 +95,7 @@ export function Awards({ lang }: Props) {
           return (
             <motion.article
               key={award.id}
-              className={`award-card glass ${tierClass[award.tier]}`}
+              className={`award-card glass ${tierClass[award.tier]}${award.id === 1 ? ' award-featured' : ''}`}
               initial={reduced ? false : { opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-40px' }}

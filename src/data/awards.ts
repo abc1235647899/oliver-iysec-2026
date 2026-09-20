@@ -78,62 +78,6 @@ export const awards: Award[] = [
     ],
   },
   {
-    id: 3,
-    tier: 'first',
-    en: {
-      title: 'Digital Arts',
-      result: 'First Runner-up',
-      category: 'Future Society and AI',
-    },
-    zh: {
-      title: '數碼藝術',
-      result: '亞軍',
-      category: '未來社會與人工智能',
-    },
-    photos: [
-      {
-        file: './art/digital-arts-future-society.jpg',
-        role: 'work',
-        en: 'Winning Future Society & AI artwork',
-        zh: '未來社會與 AI 得獎作品',
-      },
-      {
-        file: './photos/ceremony/06-da-future-first.jpg',
-        role: 'receive',
-        en: 'Receiving Digital Arts Future Society 1st runner-up',
-        zh: '領取數碼藝術未來社會亞軍',
-      },
-    ],
-  },
-  {
-    id: 4,
-    tier: 'merit',
-    en: {
-      title: 'Digital Arts',
-      result: 'Merit',
-      category: 'Temple and Chinese Culture',
-    },
-    zh: {
-      title: '數碼藝術',
-      result: '優異獎',
-      category: '廟宇與中華文化',
-    },
-    photos: [
-      {
-        file: './art/digital-arts-temple-culture.png',
-        role: 'work',
-        en: 'Temple & Chinese Culture artwork',
-        zh: '廟宇與中華文化作品',
-      },
-      {
-        file: './photos/ceremony/04-da-merit-original.jpg',
-        role: 'receive',
-        en: 'Receiving Digital Arts Temple merit',
-        zh: '領取數碼藝術廟宇優異獎',
-      },
-    ],
-  },
-  {
     id: 5,
     tier: 'merit',
     en: {
@@ -168,6 +112,34 @@ export const awards: Award[] = [
     ],
   },
   {
+    id: 3,
+    tier: 'first',
+    en: {
+      title: 'Digital Arts',
+      result: 'First Runner-up',
+      category: 'Future Society and AI',
+    },
+    zh: {
+      title: '數碼藝術',
+      result: '亞軍',
+      category: '未來社會與人工智能',
+    },
+    photos: [
+      {
+        file: './art/digital-arts-future-society.jpg',
+        role: 'work',
+        en: 'Winning Future Society & AI artwork',
+        zh: '未來社會與 AI 得獎作品',
+      },
+      {
+        file: './photos/ceremony/06-da-future-first.jpg',
+        role: 'receive',
+        en: 'Receiving Digital Arts Future Society 1st runner-up',
+        zh: '領取數碼藝術未來社會亞軍',
+      },
+    ],
+  },
+  {
     id: 6,
     tier: 'second',
     en: {
@@ -192,6 +164,34 @@ export const awards: Award[] = [
         role: 'receive',
         en: 'Interschool Future Society & AI — 2nd runner-up',
         zh: '校際未來社會與 AI · 季軍頒獎',
+      },
+    ],
+  },
+  {
+    id: 4,
+    tier: 'merit',
+    en: {
+      title: 'Digital Arts',
+      result: 'Merit',
+      category: 'Temple and Chinese Culture',
+    },
+    zh: {
+      title: '數碼藝術',
+      result: '優異獎',
+      category: '廟宇與中華文化',
+    },
+    photos: [
+      {
+        file: './art/digital-arts-temple-culture.png',
+        role: 'work',
+        en: 'Temple & Chinese Culture artwork',
+        zh: '廟宇與中華文化作品',
+      },
+      {
+        file: './photos/ceremony/04-da-merit-original.jpg',
+        role: 'receive',
+        en: 'Receiving Digital Arts Temple merit',
+        zh: '領取數碼藝術廟宇優異獎',
       },
     ],
   },
@@ -223,6 +223,7 @@ export const awards: Award[] = [
       },
     ],
   },
+
 ]
 
 export const photos = {
