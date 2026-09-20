@@ -105,7 +105,6 @@ export function Awards({ lang }: Props) {
               <div className="award-body">
                 <div className="award-top">
                   <MedalIcon tier={award.tier} />
-                  <span className="award-num">#{String(award.id).padStart(2, '0')}</span>
                 </div>
                 <h3>{copy.title}</h3>
                 {copy.category && <p className="award-cat">{copy.category}</p>}
