@@ -115,7 +115,7 @@ export function Awards({ lang }: Props) {
 
               {photoCount > 0 && (
                 <div
-                  className={`award-photos ${photoCount >= 3 ? 'cols-3' : 'cols-2'}`}
+                  className={`award-photos ${photoCount >= 3 ? 'cols-3' : photoCount === 1 ? 'cols-1' : 'cols-2'}`}
                   role="list"
                 >
                   {award.photos.map((photo) => {
