@@ -44,10 +44,10 @@ export const awards: Award[] = [
         zh: '舞台螢幕：鍾渝棠 · 銀獎',
       },
       {
-        file: './photos/ceremony/03-silver-no-text.jpg',
+        file: './photos/ceremony/03-allround-oliver-stage.jpg',
         role: 'moment',
-        en: 'Silver award group moment',
-        zh: '銀獎台上合影',
+        en: 'Oliver on stage for All-round Silver',
+        zh: '渝棠全能銀獎台上',
       },
     ],
   },
