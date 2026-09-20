@@ -44,10 +44,10 @@ export const awards: Award[] = [
         zh: '渝棠台上致辭',
       },
       {
-        file: './photos/ceremony/03-allround-oliver-stage.jpg',
+        file: './photos/ceremony/13-allround-trophies-backdrop.jpg',
         role: 'receive',
-        en: 'Oliver on stage for All-round Silver',
-        zh: '渝棠上台領取全能銀獎',
+        en: 'Oliver with trophies at the event backdrop',
+        zh: '渝棠於活動背板前手持獎盃',
       },
     ],
   },
