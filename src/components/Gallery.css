@@ -42,7 +42,7 @@
   right: 0;
   bottom: 0;
   padding: 1.5rem 0.65rem 0.55rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: #fff;
   background: linear-gradient(transparent, rgba(45, 80, 110, 0.72));
@@ -82,7 +82,7 @@
   right: 1rem;
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 700;
   background: var(--glass);
   border: 1px solid var(--glass-border);

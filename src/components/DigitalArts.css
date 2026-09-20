@@ -63,7 +63,7 @@
 }
 
 .da-art-meta h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 800;
   margin-bottom: 0.35rem;
   line-height: 1.35;
@@ -81,7 +81,7 @@
 }
 
 .da-art-meta p {
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   color: var(--text-muted);
   line-height: 1.5;
 }
@@ -103,7 +103,7 @@
 }
 
 .da-video-card h3 {
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   font-weight: 800;
   margin-bottom: 0.35rem;
   background: linear-gradient(135deg, var(--pink), var(--gold));
@@ -124,7 +124,7 @@
 }
 
 .da-video-cap {
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   color: var(--text-muted);
   margin-bottom: 1rem;
   line-height: 1.5;

@@ -9,7 +9,7 @@
 }
 
 .about-body {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   color: var(--text);
   margin-bottom: 1.75rem;
   line-height: 1.75;
@@ -34,7 +34,7 @@
 }
 
 .about-fact dt {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -43,7 +43,7 @@
 }
 
 .about-fact dd {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--text);
   line-height: 1.4;
