@@ -17,13 +17,6 @@ const artworks = [
     captionKey: 'artFutureCaption' as const,
   },
   {
-    id: 'future-alt',
-    src: './art/digital-arts-future-society-alt.jpg',
-    variant: 'future' as const,
-    titleKey: 'artFutureAltTitle' as const,
-    captionKey: 'artFutureAltCaption' as const,
-  },
-  {
     id: 'temple-culture',
     src: './art/digital-arts-temple-culture.png',
     variant: 'heritage' as const,

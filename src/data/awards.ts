@@ -174,7 +174,7 @@ export const awards: Award[] = [
     },
     photos: [
       {
-        file: './photos/awards/06-da-inter-future-work.jpg',
+        file: './photos/awards/03-da-future-work.jpg',
         role: 'work',
         en: 'Interschool Future Society winning work',
         zh: '校際未來社會得獎作品',
@@ -229,8 +229,6 @@ export const photos = {
     { file: '08-ceremony-drone-programming.jpg', en: 'Drone programming results', zh: '無人機編程成績' },
     { file: '09-ceremony-stage-group.jpg', en: 'Ceremony stage group', zh: '頒獎台合影' },
     { file: '10-ceremony-drone-manual.jpg', en: 'Drone manual results', zh: '無人機手動成績' },
-    { file: '11-venue-futuristic-lobby.jpg', en: 'Futuristic venue lobby', zh: '未來感場館大堂' },
-    { file: '12-venue-skybridge.jpg', en: 'Venue skybridge', zh: '場館天橋' },
   ],
 } as const
 
