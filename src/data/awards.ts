@@ -47,7 +47,7 @@ export const awards: Award[] = [
         file: './photos/ceremony/03-silver-no-text.jpg',
         role: 'moment',
         en: 'Silver award group moment',
-        zh: '銀獎頒獎合影',
+        zh: '銀獎台上合影',
       },
     ],
   },
