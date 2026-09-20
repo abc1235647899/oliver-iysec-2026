@@ -1,10 +1,20 @@
 export type AwardTier = 'silver' | 'first' | 'second' | 'merit'
 
+export type AwardPhotoRole = 'work' | 'receive' | 'moment'
+
+export interface AwardPhoto {
+  file: string
+  role: AwardPhotoRole
+  en?: string
+  zh?: string
+}
+
 export interface Award {
   id: number
   tier: AwardTier
   en: { title: string; result: string; category?: string }
   zh: { title: string; result: string; category?: string }
+  photos: AwardPhoto[]
 }
 
 export const awards: Award[] = [
@@ -20,6 +30,26 @@ export const awards: Award[] = [
       title: '全能學生大獎（小學）',
       result: '銀獎',
     },
+    photos: [
+      {
+        file: './photos/awards/01-allround-screen.jpg',
+        role: 'work',
+        en: 'Stage screen announcing Silver for 鍾渝棠',
+        zh: '舞台螢幕顯示鍾渝棠銀獎',
+      },
+      {
+        file: './photos/awards/01-allround-receive.jpg',
+        role: 'receive',
+        en: 'Oliver on stage receiving the award',
+        zh: '渝棠上台領獎',
+      },
+      {
+        file: './photos/awards/01-allround-speech.jpg',
+        role: 'moment',
+        en: 'Oliver giving a speech on stage',
+        zh: '渝棠舞台發言',
+      },
+    ],
   },
   {
     id: 2,
@@ -32,6 +62,20 @@ export const awards: Award[] = [
       title: 'AI 應用',
       result: '亞軍',
     },
+    photos: [
+      {
+        file: './photos/awards/02-ai-ceremony.jpg',
+        role: 'moment',
+        en: 'AI Application ceremony',
+        zh: 'AI 應用頒獎典禮',
+      },
+      {
+        file: './photos/awards/02-ai-receive.jpg',
+        role: 'receive',
+        en: 'Family trophies and receive moment',
+        zh: '一家與獎盃及領獎瞬間',
+      },
+    ],
   },
   {
     id: 3,
@@ -46,6 +90,20 @@ export const awards: Award[] = [
       result: '亞軍',
       category: '未來社會與人工智能',
     },
+    photos: [
+      {
+        file: './photos/awards/03-da-future-work.jpg',
+        role: 'work',
+        en: 'Winning Digital Arts artwork',
+        zh: '數碼藝術得獎作品',
+      },
+      {
+        file: './photos/awards/03-da-future-receive.jpg',
+        role: 'receive',
+        en: 'Receiving the Digital Arts award',
+        zh: '領取數碼藝術獎項',
+      },
+    ],
   },
   {
     id: 4,
@@ -60,6 +118,20 @@ export const awards: Award[] = [
       result: '優異獎',
       category: '廟宇與中華文化',
     },
+    photos: [
+      {
+        file: './photos/awards/04-da-temple-work.png',
+        role: 'work',
+        en: 'Temple culture winning artwork',
+        zh: '廟宇文化得獎作品',
+      },
+      {
+        file: './photos/awards/04-da-temple-receive.jpg',
+        role: 'receive',
+        en: 'Receiving the Temple Digital Arts merit',
+        zh: '領取廟宇數碼藝術優異獎',
+      },
+    ],
   },
   {
     id: 5,
@@ -72,6 +144,20 @@ export const awards: Award[] = [
       title: '大灣區 AI 應用',
       result: '優異獎',
     },
+    photos: [
+      {
+        file: './photos/awards/05-gba-ceremony.jpg',
+        role: 'moment',
+        en: 'GBA AI ceremony',
+        zh: '大灣區 AI 頒獎典禮',
+      },
+      {
+        file: './photos/awards/05-gba-receive.jpg',
+        role: 'receive',
+        en: 'Receiving the GBA AI merit',
+        zh: '領取大灣區 AI 優異獎',
+      },
+    ],
   },
   {
     id: 6,
@@ -86,6 +172,20 @@ export const awards: Award[] = [
       result: '季軍',
       category: '未來社會與人工智能',
     },
+    photos: [
+      {
+        file: './photos/awards/06-da-inter-future-work.jpg',
+        role: 'work',
+        en: 'Interschool Future Society winning work',
+        zh: '校際未來社會得獎作品',
+      },
+      {
+        file: './photos/awards/06-da-inter-future-receive.jpg',
+        role: 'receive',
+        en: 'Receiving the interschool Future Society award',
+        zh: '領取校際未來社會獎項',
+      },
+    ],
   },
   {
     id: 7,
@@ -100,6 +200,20 @@ export const awards: Award[] = [
       result: '季軍',
       category: '廟宇與中華文化',
     },
+    photos: [
+      {
+        file: './photos/awards/07-da-inter-temple-work.png',
+        role: 'work',
+        en: 'Interschool Temple culture winning work',
+        zh: '校際廟宇文化得獎作品',
+      },
+      {
+        file: './photos/awards/07-da-inter-temple-receive.jpg',
+        role: 'receive',
+        en: 'Receiving the interschool Temple award',
+        zh: '領取校際廟宇獎項',
+      },
+    ],
   },
 ]
 

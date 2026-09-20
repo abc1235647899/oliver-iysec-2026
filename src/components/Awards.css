@@ -4,27 +4,26 @@
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 520px) {
+@media (min-width: 640px) {
   .awards-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
   .awards-grid {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .award-card:first-child {
-    grid-column: span 1;
   }
 }
 
 .award-card {
-  padding: 1.35rem 1.25rem;
+  padding: 1.25rem 1.15rem 1.1rem;
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.25s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
 }
 
 .award-card::before {
@@ -34,7 +33,8 @@
   opacity: 0;
   transition: opacity 0.25s;
   pointer-events: none;
-  background: radial-gradient(circle at top right, rgba(249, 180, 208, 0.2), transparent 55%), radial-gradient(circle at bottom left, rgba(245, 224, 163, 0.14), transparent 50%);
+  background: radial-gradient(circle at top right, rgba(249, 180, 208, 0.2), transparent 55%),
+    radial-gradient(circle at bottom left, rgba(245, 224, 163, 0.14), transparent 50%);
 }
 
 .award-card:hover::before {
@@ -58,11 +58,16 @@
   border-color: var(--gold-dim);
 }
 
+.award-body {
+  position: relative;
+  z-index: 1;
+}
+
 .award-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.75rem;
 }
 
 .award-icon {
@@ -86,7 +91,7 @@
 .award-cat {
   font-size: 0.8rem;
   color: var(--text-muted);
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.55rem;
 }
 
 .award-result {
@@ -96,7 +101,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.65rem;
 }
 
 .award-tier-label {
@@ -110,4 +115,91 @@
   background: rgba(34, 211, 238, 0.1);
   color: var(--cyan);
   border: 1px solid var(--cyan-dim);
+}
+
+/* Photo strip inside card */
+.award-photos {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.award-photos.cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.award-photos.cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.award-thumb {
+  position: relative;
+  display: block;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 0.85rem;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.08), 0 4px 14px rgba(45, 80, 110, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.award-thumb:hover,
+.award-thumb:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(249, 180, 208, 0.55);
+  box-shadow: 0 0 16px var(--pink-dim), 0 0 10px var(--gold-dim);
+  outline: none;
+}
+
+.award-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.award-thumb:hover img,
+.award-thumb:focus-visible img {
+  transform: scale(1.05);
+}
+
+.award-thumb-role {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.1rem 0.4rem 0.35rem;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(transparent, rgba(45, 80, 110, 0.78));
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+
+.award-thumb:hover .award-thumb-role,
+.award-thumb:focus-visible .award-thumb-role {
+  opacity: 1;
+}
+
+@media (min-width: 1100px) {
+  .award-card:first-child {
+    grid-column: span 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .award-thumb,
+  .award-thumb img {
+    transition: none;
+  }
 }
