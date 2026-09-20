@@ -214,7 +214,6 @@ export const photos = {
     { file: 'moments/16-presenting-confidently.jpg', en: 'Presenting confidently on stage', zh: '自信地台上發言' },
     { file: 'ceremony/08-lining-up.jpg', en: 'Oliver lining up for the stage', zh: '渝棠排隊上台' },
     { file: 'ceremony/12-event-backdrop.jpg', en: 'With trophies at the event backdrop', zh: '活動背板前與獎盃' },
-    { file: '02-family-trophies-alt.jpg', en: 'Family with trophies', zh: '一家與獎盃合照' },
     { file: '05-oliver-speech-stage.jpg', en: 'Oliver speaking on stage', zh: '渝棠舞台發言' },
   ],
 } as const
