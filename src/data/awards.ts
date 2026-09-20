@@ -44,10 +44,10 @@ export const awards: Award[] = [
         zh: '渝棠台上致辭',
       },
       {
-        file: './photos/ceremony/13-allround-trophies-backdrop.jpg',
+        file: './photos/ceremony/14-family-trophies-backdrop.jpg',
         role: 'receive',
-        en: 'Oliver with trophies at the event backdrop',
-        zh: '渝棠於活動背板前手持獎盃',
+        en: 'Oliver with family and trophies at the backdrop',
+        zh: '渝棠與家人於背板前手持獎盃',
       },
     ],
   },
@@ -226,7 +226,7 @@ export const awards: Award[] = [
 ]
 
 export const photos = {
-  hero: '01-hero-family-trophies.jpg',
+  hero: '14-hero-family-trophies.jpg',
   gallery: [
     { file: '13-event-open.jpg', en: 'Event opening — AI: Shaping Tomorrow', zh: '開幕：AI 競未來' },
     { file: 'moments/17-cute-post.jpg', en: 'Cute post with classmates and trophies', zh: '同學獎盃可愛合照' },
@@ -241,6 +241,8 @@ export const photos = {
     { file: '03-family-trophies-proud.jpg', en: 'Proud family moment', zh: '一家驕傲合照' },
     { file: '05-oliver-speech-stage.jpg', en: 'Oliver speaking on stage', zh: '渝棠舞台發言' },
     { file: '06-oliver-speech-close.jpg', en: 'Speech close-up with mic', zh: '發言特寫' },
+    { file: 'ceremony/14-family-trophies-backdrop.jpg', en: 'Family with trophies at the backdrop', zh: '一家於背板前手持獎盃' },
+    { file: '01-hero-family-trophies.jpg', en: 'Proud family with IYSEC trophies', zh: '一家驕傲手持獎盃' },
   ],
 } as const
 
