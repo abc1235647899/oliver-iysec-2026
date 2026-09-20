@@ -43,12 +43,6 @@ export const awards: Award[] = [
         en: 'Oliver speaking on stage',
         zh: '渝棠台上致辭',
       },
-      {
-        file: './photos/ceremony/14-family-trophies-backdrop.jpg',
-        role: 'receive',
-        en: 'Oliver with family and trophies at the backdrop',
-        zh: '渝棠與家人於背板前手持獎盃',
-      },
     ],
   },
   {
