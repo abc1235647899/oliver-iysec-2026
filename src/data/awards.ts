@@ -229,6 +229,7 @@ export const photos = {
   hero: '01-hero-family-trophies.jpg',
   gallery: [
     { file: '13-event-open.jpg', en: 'Event opening — AI: Shaping Tomorrow', zh: '開幕：AI 競未來' },
+    { file: 'moments/17-cute-post.jpg', en: 'Cute post with classmates and trophies', zh: '同學獎盃可愛合照' },
     { file: 'moments/12-classmate-chitchat.jpg', en: 'After ceremony · chit-chat with classmate', zh: '頒獎後與同學傾偈' },
     { file: 'moments/13-teacher-classmates.jpg', en: 'Happily with teacher and classmates', zh: '與老師同學開心合照' },
     { file: 'moments/14-presenting-work.jpg', en: 'Presenting his work to the audience', zh: '向觀眾簡報作品' },
