@@ -239,8 +239,6 @@ export const photos = {
     { file: 'ceremony/12-event-backdrop.jpg', en: 'With trophies at the event backdrop', zh: '活動背板前與獎盃' },
     { file: '02-family-trophies-alt.jpg', en: 'Family with trophies', zh: '一家與獎盃合照' },
     { file: '05-oliver-speech-stage.jpg', en: 'Oliver speaking on stage', zh: '渝棠舞台發言' },
-    { file: '06-oliver-speech-close.jpg', en: 'Speech close-up with mic', zh: '發言特寫' },
-    { file: 'ceremony/14-family-trophies-backdrop.jpg', en: 'Family with trophies at the backdrop', zh: '一家於背板前手持獎盃' },
   ],
 } as const
 
