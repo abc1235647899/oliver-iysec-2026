@@ -32,22 +32,22 @@ export const awards: Award[] = [
     },
     photos: [
       {
-        file: './photos/ceremony/02-silver-clean.jpg',
-        role: 'receive',
-        en: 'Oliver on stage for All-round Silver',
-        zh: '渝棠上台領取全能銀獎',
-      },
-      {
         file: './photos/awards/01-allround-screen.jpg',
         role: 'moment',
         en: 'Stage screen: 鍾渝棠 · Silver',
         zh: '舞台螢幕：鍾渝棠 · 銀獎',
       },
       {
-        file: './photos/ceremony/03-allround-oliver-stage.jpg',
+        file: './photos/awards/01-allround-speech.jpg',
         role: 'moment',
+        en: 'Oliver speaking on stage',
+        zh: '渝棠台上致辭',
+      },
+      {
+        file: './photos/ceremony/03-allround-oliver-stage.jpg',
+        role: 'receive',
         en: 'Oliver on stage for All-round Silver',
-        zh: '渝棠全能銀獎台上',
+        zh: '渝棠上台領取全能銀獎',
       },
     ],
   },
