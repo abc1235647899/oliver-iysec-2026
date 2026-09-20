@@ -94,3 +94,12 @@
     transition: none;
   }
 }
+
+.gallery-stay-tuned {
+  margin-top: 1.75rem;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  line-height: 1.55;
+}

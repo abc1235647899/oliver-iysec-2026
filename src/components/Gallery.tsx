@@ -53,6 +53,8 @@ export function Gallery({ lang }: Props) {
         ))}
       </div>
 
+      <p className="gallery-stay-tuned">{t.galleryStayTuned}</p>
+
       <AnimatePresence>
         {active !== null && (
           <motion.div
