@@ -27,6 +27,7 @@ export function Nav({ lang, onLangChange }: Props) {
         <a href="#awards">{t.navAwards}</a>
         <a href="#digital-arts">{t.navDigitalArts}</a>
         <a href="#gallery">{t.navGallery}</a>
+        <a href="#coming-soon">{t.navComingSoon}</a>
         <a href="#about">{t.navAbout}</a>
       </nav>
       <LanguageToggle lang={lang} onChange={onLangChange} />

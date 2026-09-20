@@ -4,6 +4,7 @@ import { Hero } from './components/Hero'
 import { Awards } from './components/Awards'
 import { DigitalArts } from './components/DigitalArts'
 import { Gallery } from './components/Gallery'
+import { ComingSoon } from './components/ComingSoon'
 import { About } from './components/About'
 import { Share } from './components/Share'
 import { Footer } from './components/Footer'
@@ -21,6 +22,7 @@ export default function App() {
         <Awards lang={lang} />
         <DigitalArts lang={lang} />
         <Gallery lang={lang} />
+        <ComingSoon lang={lang} />
         <About lang={lang} />
         <Share lang={lang} />
       </main>
