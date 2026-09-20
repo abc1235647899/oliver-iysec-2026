@@ -70,10 +70,10 @@ export const awards: Award[] = [
         zh: '渝棠排隊上台',
       },
       {
-        file: './photos/ceremony/12-event-backdrop.jpg',
+        file: './photos/ceremony/15-ai-one-trophy.jpg',
         role: 'receive',
-        en: 'With trophies at the event backdrop',
-        zh: '活動背板前與獎盃合照',
+        en: 'Oliver with AI Application trophy and certificate',
+        zh: '渝棠手持 AI 應用獎盃與獎狀',
       },
     ],
   },
