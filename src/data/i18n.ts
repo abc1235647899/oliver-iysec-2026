@@ -30,7 +30,7 @@ export const translations = {
     artTempleCaption:
       'Heritage with heart — parchment textures, warm imperial gold, and jade accents honouring temple culture.',
     videoFutureTitle: 'Future Society · Film',
-    videoFutureCaption: 'Oliver’s joyful digital-arts film exploring future society and AI.',
+    videoFutureCaption: 'Oliver’s joyful digital-arts film exploring future society and AI — watch on YouTube.',
     videoTempleTitle: 'Temples & Culture · Film',
     videoTempleCaption: 'A loving heritage short on temples and Chinese culture — watch on YouTube.',
     galleryTitle: 'Joyful Moments',
@@ -92,7 +92,7 @@ export const translations = {
     artTempleCaption:
       '滿懷心意的遺產——羊皮紙質感、溫暖帝王金與翡翠點綴，致敬廟宇文化。',
     videoFutureTitle: '未來社會 · 影片',
-    videoFutureCaption: '渝棠充滿喜悅的數碼藝術短片，探索未來社會與人工智能。',
+    videoFutureCaption: '渝棠充滿喜悅的數碼藝術短片，探索未來社會與人工智能——於 YouTube 觀看。',
     videoTempleTitle: '廟宇與文化 · 影片',
     videoTempleCaption: '滿懷愛意的廟宇與中華文化主題短片——於 YouTube 觀看。',
     galleryTitle: '歡喜瞬間',

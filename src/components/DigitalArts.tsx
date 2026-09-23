@@ -85,16 +85,15 @@ export function DigitalArts({ lang }: Props) {
         >
           <h3>{t.videoFutureTitle}</h3>
           <p className="da-video-cap">{t.videoFutureCaption}</p>
-          <div className="da-video-wrap">
-            <video
-              controls
-              playsInline
-              poster="./art/digital-arts-future-society.jpg"
-              preload="metadata"
-            >
-              <source src="./videos/Oliver_Future_v1.mp4" type="video/mp4" />
-              {lang === 'zh' ? '您的瀏覽器不支援影片播放。' : 'Your browser does not support video playback.'}
-            </video>
+          <div className="da-video-wrap da-embed">
+            <iframe
+              src="https://www.youtube.com/embed/nSq6kSDObe8"
+              title={t.videoFutureTitle}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
           </div>
         </motion.article>
 
