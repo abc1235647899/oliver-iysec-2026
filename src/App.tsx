@@ -5,6 +5,7 @@ import { Awards } from './components/Awards'
 import { DigitalArts } from './components/DigitalArts'
 import { Gallery } from './components/Gallery'
 import { ComingSoon } from './components/ComingSoon'
+import { Media } from './components/Media'
 import { About } from './components/About'
 import { Share } from './components/Share'
 import { Footer } from './components/Footer'
@@ -23,6 +24,7 @@ export default function App() {
         <DigitalArts lang={lang} />
         <Gallery lang={lang} />
         <ComingSoon lang={lang} />
+        <Media lang={lang} />
         <About lang={lang} />
         <Share lang={lang} />
       </main>
