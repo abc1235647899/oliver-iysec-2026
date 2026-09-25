@@ -3,6 +3,7 @@ import { Nav } from './components/Nav'
 import { Hero } from './components/Hero'
 import { Awards } from './components/Awards'
 import { DigitalArts } from './components/DigitalArts'
+import { MidAutumn } from './components/MidAutumn'
 import { Gallery } from './components/Gallery'
 import { ComingSoon } from './components/ComingSoon'
 import { Media } from './components/Media'
@@ -22,6 +23,7 @@ export default function App() {
         <Hero lang={lang} />
         <Awards lang={lang} />
         <DigitalArts lang={lang} />
+        <MidAutumn lang={lang} />
         <Gallery lang={lang} />
         <ComingSoon lang={lang} />
         <Media lang={lang} />
