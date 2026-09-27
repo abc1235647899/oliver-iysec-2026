@@ -47,5 +47,12 @@ export const mediaItems: MediaItem[] = [
     titleEnShort: 'IYSEC 2026 awards ceremony coverage',
     url: 'https://powerup.mingpao.com/%E6%96%B0%E9%B4%BB%E5%9F%BA%E5%9C%B0%E7%94%A2%E5%9C%8B%E9%9A%9B%E9%9D%92%E5%B0%91%E5%B9%B4%E5%89%B5%E7%A7%91%E6%95%99%E8%82%B2%E5%A4%A7%E8%B3%BD-2026%E9%A0%92%E7%8D%8E%E7%A6%AE/',
   },
+  {
+    outlet: 'Yahoo 新聞 · Yahoo News HK',
+    titleZh: '圓滿舉行 新鴻基地產國際青少年創科教育大賽2026頒獎禮 逾500校參與創科盛事',
+    titleEnShort: 'IYSEC 2026 awards — over 500 schools joined',
+    url: 'https://hk.news.yahoo.com/%E5%9C%93%E6%BB%BF%E8%88%89%E8%A1%8C-%E6%96%B0%E9%B4%BB%E5%9F%BA%E5%9C%B0%E7%94%A2%E5%9C%8B%E9%9A%9B%E9%9D%92%E5%B0%91%E5%B9%B4%E5%89%B5%E7%A7%91%E6%95%99%E8%82%B2%E5%A4%A7%E8%B3%BD2026%E9%A0%92%E7%8D%8E%E7%A6%AE-%E9%80%BE500%E6%A0%A1%E5%8F%83%E8%88%87%E5%89%B5%E7%A7%91%E7%9B%9B%E4%BA%8B-090000704.html',
+    date: '2026-09-23',
+  },
 ]
 
