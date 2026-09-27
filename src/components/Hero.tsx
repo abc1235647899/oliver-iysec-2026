@@ -54,7 +54,7 @@ export function Hero({ lang }: Props) {
               width={640}
               height={800}
               loading="eager"
-              fetchpriority="high"
+              fetchPriority="high"
             />
             <div className="hero-badge glass">
               <strong>7</strong>
