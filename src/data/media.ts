@@ -62,5 +62,13 @@ export const mediaItems: MediaItem[] = [
     url: 'https://www.shkp.com/zh-HK/media/press-releases/20260923',
     date: '2026-09-23',
   },
+  {
+    outlet: '星島加拿大 · Sing Tao Canada',
+    titleZh:
+      '新鴻基地產國際青少年創科教育大賽2026頒獎禮 500校逾6000學生競逐學界「創科奧運會」',
+    titleEnShort: 'IYSEC 2026 awards — 500 schools, over 6,000 students',
+    url: 'https://www.singtao.ca/7635459/2026-09-23/news-%E6%96%B0%E9%B4%BB%E5%9F%BA%E5%9C%B0%E7%94%A2%E5%9C%8B%E9%9A%9B%E9%9D%92%E5%B0%91%E5%B9%B4%E5%89%B5%E7%A7%91%E6%95%99%E8%82%B2%E5%A4%A7%E8%B3%BD2026%E9%A0%92%E7%8D%8E%E7%A6%AE+500%E6%A0%A1%E9%80%BE6000%E5%AD%B8%E7%94%9F%E7%AB%B6%E9%80%90%E5%AD%B8%E7%95%8C%E3%80%8C%E5%89%B5%E7%A7%91%E5%A5%A7%E9%81%8B%E6%9C%83%E3%80%8D/',
+    date: '2026-09-23',
+  },
 ]
 
