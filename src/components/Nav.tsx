@@ -26,8 +26,10 @@ export function Nav({ lang, onLangChange }: Props) {
       <nav className="nav-links" aria-label="Sections">
         <a href="#awards">{t.navAwards}</a>
         <a href="#digital-arts">{t.navDigitalArts}</a>
+        <a href="#mid-autumn">{t.navMidAutumn}</a>
         <a href="#gallery">{t.navGallery}</a>
         <a href="#coming-soon">{t.navComingSoon}</a>
+        <a href="#media">{t.navMedia}</a>
         <a href="#about">{t.navAbout}</a>
       </nav>
       <LanguageToggle lang={lang} onChange={onLangChange} />

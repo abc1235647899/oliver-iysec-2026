@@ -119,6 +119,9 @@ export function Awards({ lang }: Props) {
                 >
                   {award.photos.map((photo) => {
                     const alt = photoAlt(award, photo, lang)
+                    const orig = photo.file
+                    const thumbBase = orig.replace('./photos/', './thumbs/').replace(/\.(jpg|jpeg|png)$/i, '')
+                    const thumbJpg = `${thumbBase}.jpg`
                     return (
                       <button
                         key={photo.file}
@@ -129,9 +132,12 @@ export function Awards({ lang }: Props) {
                         aria-label={alt}
                       >
                         <img
-                          src={photo.file}
+                          src={thumbJpg}
+                          srcSet={`${thumbJpg} 640w, ${orig} 1600w`}
+                          sizes="(min-width: 900px) 30vw, (min-width: 700px) 45vw, 90vw"
                           alt={alt}
                           loading="lazy"
+                          decoding="async"
                           width={320}
                           height={200}
                         />
@@ -167,6 +173,7 @@ export function Awards({ lang }: Props) {
               initial={reduced ? false : { scale: 0.9 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.9 }}
+              decoding="async"
               onClick={(e) => e.stopPropagation()}
             />
             <button type="button" className="lightbox-close" onClick={() => setLightbox(null)}>

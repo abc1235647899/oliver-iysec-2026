@@ -38,6 +38,15 @@ export function ComingSoon({ lang }: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
+        <img
+          className="coming-soon-banner"
+          src="./coming-soon/shipping-banner.jpg"
+          alt={t.comingSoonBannerAlt}
+          loading="lazy"
+          decoding="async"
+          width={1024}
+          height={270}
+        />
         <span className="coming-soon-badge">{t.comingSoonBadge}</span>
         <p className="coming-soon-headline">{t.comingSoonHeadline}</p>
         <h3 className="coming-soon-event">{t.comingSoonEvent}</h3>
