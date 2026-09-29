@@ -57,6 +57,7 @@ export const translations = {
     comingSoonResult:
       '2nd Runner-up (季軍): Oliver Chung Yu Tong · PLK Fung Ching Memorial Primary School',
     comingSoonNote: 'Photos and details will be added soon — please stay tuned!',
+    comingSoonBannerAlt: 'Shipping AI artwork banner',
     aboutTitle: 'About Oliver',
     aboutBody: `${subject.nameEn} (${subject.nameZh}) is our bright ${subject.age}-year-old Primary 6 student at ${subject.schoolEn}. At the ${subject.eventEn}, he earned seven awards spanning all-round excellence, AI application, and digital arts — and we couldn’t be prouder of his creativity, curiosity, and STEAM spirit.`,
     aboutAge: 'Age',
@@ -128,6 +129,7 @@ export const translations = {
     comingSoonEvent: '「向航海致敬：我心目中的航運業」生成式 AI 創作比賽評比揭曉',
     comingSoonResult: '季軍：保良局馮晴紀念小學 鍾渝棠同學',
     comingSoonNote: '相片與詳情即將上載，敬請期待！',
+    comingSoonBannerAlt: '航運 AI 創作橫幅',
     aboutTitle: '關於渝棠',
     aboutBody: `${subject.nameZh}（${subject.nameEn}）是我們家的小太陽，${subject.schoolZh}的${subject.gradeZh}學生，今年 ${subject.age} 歲。在${subject.eventZh}中，他勇奪七項大獎，涵蓋全能表現、AI 應用與數碼藝術——我們為他的創意、好奇心與 STEAM 精神感到無比驕傲。`,
     aboutAge: '年齡',
