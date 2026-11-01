@@ -35,5 +35,30 @@ export const shippingPhotos: ShippingPhoto[] = [
     en: 'Outside COSCO TOWER',
     zh: '中遠大廈外合照',
   },
+  {
+    file: '07-interview-indoor.jpg',
+    en: 'Being interviewed',
+    zh: '接受訪問',
+  },
+  {
+    file: '08-interview-port-view.jpg',
+    en: 'Interview with the port behind him',
+    zh: '碼頭景觀訪問',
+  },
+  {
+    file: '09-interview-roc.jpg',
+    en: 'Interview at the Remote Operations Centre',
+    zh: 'Remote Operations Centre 訪問',
+  },
+  {
+    file: '10-backdrop-trophy.jpg',
+    en: 'With trophy and certificate at the ceremony backdrop',
+    zh: '頒獎禮背景板合照',
+  },
+  {
+    file: '11-photo-frame.jpg',
+    en: 'Photo-frame keepsake with trophy and certificate',
+    zh: '活動相框留影',
+  },
 ] as const
 
