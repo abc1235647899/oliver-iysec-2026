@@ -60,5 +60,10 @@ export const shippingPhotos: ShippingPhoto[] = [
     en: 'Photo-frame keepsake with trophy and certificate',
     zh: '活動相框留影',
   },
+  {
+    file: '12-stage-winners-group.jpg',
+    en: 'Winners on stage with certificates',
+    zh: '頒獎台得獎同學合照',
+  },
 ] as const
 

@@ -70,5 +70,28 @@ export const mediaItems: MediaItem[] = [
     url: 'https://www.singtao.ca/7635459/2026-09-23/news-%E6%96%B0%E9%B4%BB%E5%9F%BA%E5%9C%B0%E7%94%A2%E5%9C%8B%E9%9A%9B%E9%9D%92%E5%B0%91%E5%B9%B4%E5%89%B5%E7%A7%91%E6%95%99%E8%82%B2%E5%A4%A7%E8%B3%BD2026%E9%A0%92%E7%8D%8E%E7%A6%AE+500%E6%A0%A1%E9%80%BE6000%E5%AD%B8%E7%94%9F%E7%AB%B6%E9%80%90%E5%AD%B8%E7%95%8C%E3%80%8C%E5%89%B5%E7%A7%91%E5%A5%A7%E9%81%8B%E6%9C%83%E3%80%8D/',
     date: '2026-09-23',
   },
+  // Shipping AI competition (separate from IYSEC)
+  {
+    outlet: '橙新聞 · Orange News',
+    titleZh:
+      '有片｜香港中遠海運辦AI創作比賽邀家長師生參觀碼頭　得獎學生讚碼頭既先進又環保',
+    titleEnShort: 'COSCO Hong Kong AI contest — winners visit the terminal',
+    url: 'https://www.orangenews.hk/hongkong/VZbqWKT/%E4%B8%AD%E9%81%A0%E6%B5%B7%E9%81%8B%E8%BE%A6AI%E5%89%B5%E4%BD%9C%E6%AF%94%E8%B3%BD%E9%82%80%E5%AE%B6%E9%95%B7%E5%B8%AB%E7%94%9F%E5%8F%83%E8%A7%80%E7%A2%BC%E9%A0%AD-%E5%BE%97%E7%8D%8E%E5%AD%B8%E7%94%9F%E8%AE%9A%E7%A2%BC%E9%A0%AD%E6%97%A2%E5%85%88%E9%80%B2%E5%8F%88%E7%92%B0%E4%BF%9D.shtml',
+    date: '2026-10-31',
+  },
+  {
+    outlet: '紫荊網 · Bau.com.hk',
+    titleZh: '「向航海致敬：我心目中的航運業」AI創作比賽頒獎典禮圓滿舉行',
+    titleEnShort: 'Shipping AI creation contest awards ceremony',
+    url: 'https://bau.com.hk/web/article/1566082463042830336/web/content_1566082463042830336.html',
+    date: '2026-10-31',
+  },
+  {
+    outlet: '香港商報 · Hong Kong Commercial Daily',
+    titleZh: '「向航海致敬：我心目中的航運業」AI創作比賽頒獎典禮圓滿舉行',
+    titleEnShort: 'Shipping AI creation contest awards ceremony',
+    url: 'https://www.hkcd.com.hk/content_app/2026-10/31/content_8782826.html',
+    date: '2026-10-31',
+  },
 ]
 
