@@ -41,13 +41,23 @@ export function Gallery({ lang }: Props) {
             onClick={() => setActive(i)}
             aria-label={lang === 'zh' ? photo.zh : photo.en}
           >
-            <img
-              src={`./photos/${photo.file}`}
-              alt={lang === 'zh' ? photo.zh : photo.en}
-              loading="lazy"
-              width={400}
-              height={300}
-            />
+            {(() => {
+              const orig = `./photos/${photo.file}`
+              const thumbBase = orig.replace('./photos/', './thumbs/').replace(/\.(jpg|jpeg|png)$/i, '')
+              const thumbJpg = `${thumbBase}.jpg`
+              return (
+                <img
+                  src={thumbJpg}
+                  srcSet={`${thumbJpg} 640w, ${orig} 1600w`}
+                  sizes="(min-width: 960px) 25vw, (min-width: 640px) 33vw, 50vw"
+                  alt={lang === 'zh' ? photo.zh : photo.en}
+                  loading="lazy"
+                  decoding="async"
+                  width={400}
+                  height={300}
+                />
+              )
+            })()}
             <span className="gallery-cap">{lang === 'zh' ? photo.zh : photo.en}</span>
           </motion.button>
         ))}
@@ -74,6 +84,7 @@ export function Gallery({ lang }: Props) {
               initial={reduced ? false : { scale: 0.9 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.9 }}
+              decoding="async"
               onClick={(e) => e.stopPropagation()}
             />
             <button type="button" className="lightbox-close" onClick={() => setActive(null)}>
