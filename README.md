@@ -13,7 +13,7 @@ Oliver’s winning digital arts set the palette: soft teal/seafoam + pastel pink
 | | EN | 繁中 |
 |---|----|------|
 | Name | Oliver Chung Yu Tong | 鍾渝棠 |
-| Age / Grade | 10 · Primary 6 | 10 歲 · 小六 |
+| Age / Grade | 11 · Primary 6 | 11 歲 · 小六 |
 | School | PLK Fung Ching Memorial Primary School | 保良局馮晴紀念小學 |
 | Event | IYSEC 2026 | 新鴻基地產國際青少年創科教育大賽 |
 

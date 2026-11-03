@@ -224,7 +224,7 @@ export const photos = {
 export const subject = {
   nameEn: 'Oliver Chung Yu Tong',
   nameZh: '鍾渝棠',
-  age: 10,
+  age: 11,
   gradeEn: 'Primary 6',
   gradeZh: '小六',
   schoolEn: 'PLK Fung Ching Memorial Primary School',
